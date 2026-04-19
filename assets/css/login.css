@@ -1,0 +1,94 @@
+:root {
+  --green: #22c55e;
+  --green-dark: #16a34a;
+  --green-light: #dcfce7;
+  --navy: #0f172a;
+  --gray: #64748b;
+  --bg: #edf5ee;
+  --white: #ffffff;
+  --radius-pill: 50px;
+  --radius-card: 24px;
+  --radius-input: 16px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--bg);
+}
+
+/* NAVBAR */
+.navbar {
+  background: var(--white);
+  padding: 14px 40px;
+}
+
+/* CARD */
+.page-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.auth-card {
+  background: var(--white);
+  padding: 40px;
+  border-radius: var(--radius-card);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* ROLE */
+.role-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.role-tab {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.role-tab.active {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+/* INPUT */
+.input-wrap {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-wrap i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-wrap input {
+  width: 100%;
+  padding: 12px 12px 12px 35px;
+  border-radius: var(--radius-input);
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: var(--radius-pill);
+}
+
+.btn-submit:hover {
+  background: var(--green-dark);
+}
