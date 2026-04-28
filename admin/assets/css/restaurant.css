@@ -1,0 +1,33 @@
+.main-content {
+  margin-left: 250px;
+  padding: 30px;
+  background: #eef5ee;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-weight: 800;
+  color: #1a3d1f;
+}
+
+/* Card */
+.card {
+  border-radius: 20px;
+}
+
+/* Table */
+.table th {
+  font-size: 13px;
+  color: gray;
+}
+
+.table td {
+  font-weight: 500;
+}
+
+/* Badge */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}

@@ -39,9 +39,25 @@
       </ul>
 
       <?php if(isset($_SESSION['user_id'])): ?>
-        <a class="profile-pill">
-          <i class="bi bi-person"></i> <?= $_SESSION['name'] ?>
-        </a>
+       <div class="dropdown">
+  <button class="profile-pill dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    <i class="bi bi-person"></i> <?= $_SESSION['name'] ?>
+  </button>
+
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li>
+      <a class="dropdown-item" href="/ne3ma/profile.php">
+        <i class="bi bi-person-circle"></i> Profile
+      </a>
+    </li>
+    <li><hr class="dropdown-divider"></li>
+    <li>
+      <a class="dropdown-item text-danger" href="/ne3ma/auth/logout.php">
+        <i class="bi bi-box-arrow-right"></i> Logout
+      </a>
+    </li>
+  </ul>
+</div>
       <?php else: ?>
         <a class="btn-signin" href="/ne3ma/auth/login.php">Sign In</a>
       <?php endif; ?>

@@ -39,26 +39,18 @@ body {
 }
 
 /* ROLE */
-.role-tabs {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
 
-.role-tab {
-  flex: 1;
-  padding: 10px;
-  border: 2px solid #ddd;
-  border-radius: 12px;
-  cursor: pointer;
+.user-icon {
+  padding: 20px;
   text-align: center;
+  color: var(--green-light);
 }
-
-.role-tab.active {
-  border-color: var(--green);
-  color: var(--green);
+.user-icon i {
+  background-color: var(--green);
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 1.5rem;
 }
-
 /* INPUT */
 .input-wrap {
   position: relative;

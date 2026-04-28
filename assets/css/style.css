@@ -280,3 +280,17 @@ footer {
     font-size: 2rem;
   }
 }
+/* ================= DROPDOWN ================= */
+.dropdown-menu {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.dropdown-item {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.dropdown-item:hover {
+  background: #f1f5f9;
+}

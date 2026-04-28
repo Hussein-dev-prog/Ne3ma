@@ -1,0 +1,38 @@
+.main-content {
+  margin-left: 250px;
+  padding: 30px;
+}
+
+.page-title {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.page-subtitle {
+  color: #6c757d;
+}
+
+/* Cards */
+.stat-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stat-label {
+  font-size: 14px;
+  color: gray;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Table */
+.table-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
